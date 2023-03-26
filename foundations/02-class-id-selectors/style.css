@@ -1,0 +1,16 @@
+.classdemo {
+    background-color: hsl(0, 45%, 55%);
+    font-family: 'Dejavu Sans', Verdana, Geneva, Tahoma, sans-serif;
+}
+.cool, #test2 {
+    font-size: 24px;
+}
+
+#test1 {
+    font-size: 36px;
+    color: hwb(240 9% 36%);
+}
+#test2 {
+    background-color: rgb(32, 241, 143);
+    font-weight: bold;
+}
