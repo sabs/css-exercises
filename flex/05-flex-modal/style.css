@@ -20,6 +20,7 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 8px;
 }
 
 .icon {
@@ -33,6 +34,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 8px;
 }
 
 .close-button {
@@ -46,11 +48,17 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 8px;
 }
 
 button {
   padding: 8px 16px;
   border-radius: 8px;
+}
+
+.action {
+  padding: 8px;
+  padding-left: 0;
 }
 
 button.continue {
@@ -63,4 +71,35 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.header {
+  font-size: larger;
+  font-weight: bold;
+}
+
+/* style.css | file:///Users/sabrina/Projects/odinproject/repos/css-exercises/flex/05-flex-modal/style.css */
+
+.modal {
+  display: flex;
+}
+
+.icon {
+  flex: 1 0 auto;
+  margin-left: 8px;
+  margin-right: 16px;
+}
+
+/* Inline #1 | file:///Users/sabrina/Projects/odinproject/repos/css-exercises/flex/05-flex-modal/index.html */
+
+.modaltext {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.warning {
+  display: flex;
+  justify-content: space-between;
 }
